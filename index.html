@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michal Bartoš | IT Student & Vývojář</title>
+    <meta name="description"
+        content="Osobní web Michala Bartoše, studenta 3. ročníku IT na Střední průmyslové škole Příbram.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">MB<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home">Domů</a>
+                <a href="#about">O mně</a>
+                <a href="#skills">Dovednosti</a>
+                <a href="#projects">Projekty</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge">Student 3. ročníku IT</span>
+                    <h1>Michal Bartoš</h1>
+                    <p class="subtitle">Studuji na <span>Střední průmyslové škole Příbram</span> a fascinuje mě svět
+                        technologií, programování a digitálního designu.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Kontaktujte mě</a>
+                        <a href="#about" class="btn btn-secondary">Více o mně</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob-wrapper">
+                        <div class="blob"></div>
+                        <img src="avatar.png" alt="Michal Bartoš hero background" id="hero-img">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O mně</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Ahoj! Jsem Michal a momentálně studuji ve třetím ročníku na <strong>SPŠ Příbram</strong> se
+                            zaměřením na informační technologie. Moje cesta do světa IT začala zvědavostí, jak věci
+                            fungují pod kapotou, a postupně se vyvinula v hluboký zájem o vývoj softwaru.</p>
+                        <p>Baví mě řešit komplexní problémy a neustále se učit nové technologie. Na škole se věnujeme
+                            širokému spektru témat od sítí až po programování, což mi dává skvělý základ pro budoucí
+                            kariéru v oboru.</p>
+                        <ul class="stats">
+                            <li><strong>3+</strong> Roky studia</li>
+                            <li><strong>10+</strong> Školních projektů</li>
+                            <li><strong>∞</strong> Nadšení pro IT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dovednosti</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i data-lucide="code-2"></i>
+                        <h3>Vývoj</h3>
+                        <p>Základy HTML, CSS a JavaScriptu pro tvorbu webových aplikací.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="terminal"></i>
+                        <h3>Algoritmy</h3>
+                        <p>Logické myšlení a řešení programátorských úloh ve školních projektech.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="server"></i>
+                        <h3>Sítě & HW</h3>
+                        <p>Konfigurace síťových prvků a porozumění hardwarové architektuře.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="layout"></i>
+                        <h3>Design</h3>
+                        <p>Zájem o moderní UI/UX a estetiku digitálních produktů.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projekty</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Školní IS</h3>
+                            <p>Návrh a implementace jednoduchého informačního systému pro správu studentů.</p>
+                            <div class="tags">
+                                <span>C#</span>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Webové Portfolio</h3>
+                            <p>Moderní statický web vytvořený s důrazem na UI/UX a animace.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Kontakt</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Pojďme se spojit</h3>
+                        <p>Máte zájem o spolupráci nebo se chcete jen na něco zeptat?</p>
+                        <div class="contact-links">
+                            <a href="mailto:michal.bartos@example.cz" class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>michal.bartos@example.cz</span>
+                            </a>
+                            <div class="contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>Příbram, Česká republika</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Michal Bartoš. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
