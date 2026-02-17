@@ -1,0 +1,46 @@
+{
+  "name": "Michal Bartoš",
+  "role": "Student 3. ročníku IT",
+  "about": {
+    "title": "O mně",
+    "description": "Ahoj! Jsem Michal a momentálně studuji ve třetím ročníku na SPŠ Příbram se zaměřením na informační technologie. Moje cesta do světa IT začala zvědavostí, jak věci fungují pod kapotou, a postupně se vyvinula v hluboký zájem o vývoj softwaru."
+  },
+  "skills": [
+    {
+      "title": "Vývoj",
+      "desc": "Základy HTML, CSS a JavaScriptu pro tvorbu webových aplikací.",
+      "icon": "code-2"
+    },
+    {
+      "title": "Algoritmy",
+      "desc": "Logické myšlení a řešení programátorských úloh ve školních projektech.",
+      "icon": "terminal"
+    },
+    {
+      "title": "Sítě & HW",
+      "desc": "Konfigurace síťových prvků a porozumění hardwarové architektuře.",
+      "icon": "server"
+    },
+    {
+      "title": "Design",
+      "desc": "Zájem o moderní UI/UX a estetiku digitálních produktů.",
+      "icon": "layout"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Školní IS",
+      "desc": "Návrh a implementace jednoduchého informačního systému pro správu studentů.",
+      "tags": ["C#", "SQL"]
+    },
+    {
+      "title": "Webové Portfolio",
+      "desc": "Moderní statický web vytvořený s důrazem na UI/UX a animace.",
+      "tags": ["HTML", "CSS", "JS"]
+    }
+  ],
+  "contact": {
+    "email": "michal.bartos@example.cz",
+    "location": "Příbram, Česká republika"
+  }
+}
